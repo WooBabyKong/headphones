@@ -1,0 +1,1 @@
+This project is about building a landing page for headphones from scratchbusing just HTML and CSS also we are required to  make sure it is a responsive webpage for Desktop and Moblie users
