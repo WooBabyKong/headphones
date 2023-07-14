@@ -1,0 +1,54 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'holberton_school-icon';
+}
+
+header
+{
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 201px;
+   padding-right: 199px;
+   align-items: center;
+   z-index: 1000;
+   position: relative;
+}
+
+nav a
+{
+  text-decoration: none;
+  text-transform: lowercase;
+  padding: 20px;
+  color: white;
+}
+
+nav a:hover
+{
+    color: #FF6565;
+}
+
+main
+{
+    height: 800px;
+    background-image: url("./assets/images/headphones_hero_1.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -80px;
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div h1, p, button, div p
+{
+    color: white;
+    text-align: center;
+}
+

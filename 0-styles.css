@@ -1,0 +1,232 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'holberton_school-icon';
+}
+
+header
+{
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 201px;
+   padding-right: 199px;
+   align-items: center;
+   z-index: 1000;
+   position: relative;
+}
+
+nav a
+{
+  text-decoration: none;
+  text-transform: lowercase;
+  padding: 20px;
+  color: white;
+}
+
+nav a:hover
+{
+    color: #FF6565;
+}
+
+main
+{
+    height: 800px;
+    background-image: url("./assets/images/headphones_hero_1.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -80px;
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-text
+{
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+
+#main-sub-text
+{
+    color: black;
+    text-align: center;
+}
+
+#main-2nd-sub-text
+{
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-top: 290px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button
+{
+    padding: 10px;
+    background-color: #FF6565;
+    color: white;
+    border-radius: 22px;
+    font-size: 16px;
+    border: none;
+}
+
+.what-we-do
+{
+    height: 400px;
+    position: relative;
+    top: -80px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.what-we-do p
+{
+    font-size: small;
+}
+
+.others
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: small;
+}
+
+.our-results
+{
+    height: 700px;
+    position: relative;
+    top: -80px;
+    text-align: center;
+    background-image: url(./assets/images/headphones_hero_2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#sub-text2
+{
+    color: white;
+    padding-top: 150px;
+}
+
+.choose
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+
+ .container2
+{
+    height: 700px;
+    position: relative;
+    top: -80px;
+    text-align: center;
+}
+
+
+
+ .center{
+  top: -80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 29vw; 
+  background: white;
+ background-position: center;
+  background-size: cover; 
+  height: 500px;
+  position: absolute;
+  text-align: center;
+} 
+
+.center h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  /* border-bottom: 1px solid silver; */
+} 
+
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+ form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+} 
+
+
+
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+} 
+
+ .txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background: #2691d9;
+  transition: .5s;
+}  
+
+.button2
+{
+    padding: 20px;
+    background-color: #FF6565;
+    color: white;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
